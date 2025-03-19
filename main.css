@@ -1,0 +1,190 @@
+:root {
+	--main-color:#97c00e;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.navbar {
+	background: #97c00e;
+}
+.nav-link, .navbar-brand {
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.5em;
+}
+.nav-link {
+	margin-right: 1em !important;
+}
+.navbar-brand {
+	positon:aboslute;
+	top:0;
+	margin-left: 0;
+}
+.nav-link:hover {
+	color: #000;
+}
+.navbar-collapse {
+	justify-content: flex-end;
+}
+#dropdownMenuButton {
+	margin-right: 1em !important; 
+}
+.header {
+	background-image: url('./images/background_img.jpeg');
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	background-repeat: no-repeat;
+	min-width: 100%;
+	min-height: 15em;
+	display: flex;
+}
+.overlay {
+	position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.description {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	text-align: center;
+}
+.description button {
+	border: 1px solid #97c00e;
+	background: #97c00e;
+	border-radius: 0;
+	color: #fff;
+}
+.description button:hover {
+	border: 1px solid #fff;
+	background: #fff;
+	color:#000;
+}
+.description h1 {
+	padding-bottom:0.5em;
+}
+.features {
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
+}
+.feature-title {
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+.bg-body-tertiary {
+	background: #97c00e;
+}
+.bg-body-tertiary div {
+	color: #fff;
+}
+.fa {
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-instagram {
+	color:white;
+}
+.fa-whatsapp {
+	color:white;
+}
+
+.page-wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+}
+
+.section-divider {
+	border: 1;
+	border-top: 1px solid #000;
+	margin: 4rem 0;
+}
+
+
+.sticky_note {
+  font-family: 'Reenie Beanie';
+  background: #ffc;
+  color: #000;
+  display: block;
+  height: 21em;
+  width: 21em;
+  padding: 1em;
+  margin: 2em;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  position: relative;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.sticky_note h3 {
+	margin: 0px;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.sticky_note p {
+	font-size: 1.5em;
+}
+
+.sticky_note:hover {
+  transform: rotate(0deg) !important; /* Optional: Make them straight on hover */
+}
+
+#news_container {
+	min-height: 21em;
+}
+
+.card-header {
+    background-color: #97c00e; /* Change to your desired color */
+    color: white; /* Text color in the header */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+.card {
+    background-color: #f9f9f9; /* Change to your desired color */
+    border: none; /* This is optional, removes any default border */
+}
+
+.card-body {
+    background-color: #f9f9f9; /* Change to your desired color */
+}
+
+.card {
+    padding: 15px;
+}
